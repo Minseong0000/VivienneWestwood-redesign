@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* "Mabry Pro Medium", sans-serif */
+@import url(./stylesheet.css);
+
+/* 'Pretendard', sans-serif */
+@import url(./pretendard-subset.css);
+
+/* Abhaya Libre", serif */
+/* medium 500, extra-bold 800 */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;800&display=swap');

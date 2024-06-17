@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    padding: 50px 0 0 18px;
+  }
+
+  main .menu-container {
+    position: relative;
+    display: block;
+    max-width: 280px;
+    min-width: 130px;
+  }
+
+  /*** 상품 리스트 */
+  /*** 메인 상품 ***/
+  main .product-list .main-products ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  main .product-list .main-products ul li h3 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  main .product-list .main-products ul li p {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+
+  main .product-list .main-products ul li a .knitwear2 {
+    display: none;
+  }
+
+  main .product-list .main-products ul li a:hover>.knitwear1 {
+    display: none;
+  }
+
+  main .product-list .main-products ul li a:hover>.knitwear2 {
+    display: block;
+  }
+
+  main .product-list .main-products ul li a .t-shirt2 {
+    display: none;
+  }
+
+  main .product-list .main-products ul li a:hover>.t-shirt1 {
+    display: none;
+  }
+
+  main .product-list .main-products ul li a:hover>.t-shirt2 {
+    display: block;
+  }
+
+  /*** 서브 상품 ***/
+  main .product-list .sub-products ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  main .product-list .sub-products ul li h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+  }
+
+  main .product-list .sub-products ul li p {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+}

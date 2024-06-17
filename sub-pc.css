@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    padding: 30px 18px 0 18px;
+  }
+
+  main .menu-container {
+    position: relative;
+    display: block;
+    width: 15%;
+    min-width: 130px;
+  }
+
+  /*** 상품 이미지 ***/
+  main .mobile-product-swiper {
+    display: none;
+  }
+
+  main .pc-product-container {
+    display: block;
+    width: 56%;
+    padding-top: 60px;
+  }
+
+  main .pc-product-container .img-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    /* gap: 10px; */
+  }
+
+  main .pc-product-container .img-wrapper img {
+    width: 100%;
+  }
+
+  /*** 구매 영역 ***/
+  main .order-container {
+    width: 29%;
+    min-width: 330px;
+    padding: 90px 4vw 0 5vw;
+  }
+
+  main .order-container .order-box {
+    position: sticky;
+    top: 50px;
+  }
+
+  main .order-container .order-box .clothe-num {
+    font-size: 18px;
+  }
+
+  main .order-container .order-box .product-name {
+    font-size: 30px;
+    /* line-height: 0.9; */
+    padding: 6px 0;
+  }
+
+  main .order-container .order-box .price {
+    font-size: 24px;
+  }
+
+  /*** pc 상품 설명 ***/
+  main .order-container .order-box .product-info-box {
+    display: block;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 40px 0;
+  }
+
+  /*** 드롭 메뉴 ***/
+  main .order-container .order-box .drop-menu .drop-color {
+    margin-right: 15px;
+    font-size: 24px;
+  }
+
+  main .order-container .order-box .drop-menu .drop-size {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+
+  /*** 버튼 ***/
+  main .order-container .order-box .btn {
+    font-size: 20px;
+    height: 45px;
+
+  }
+
+  /*** 토글 ***/
+  main .order-container .order-box .info-box .mobile-info-box {
+    display: none;
+  }
+
+  main .order-container .order-box .toggle-btn .info-toggle h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  main .order-container .order-box .toggle-btn p {
+  font-size: 14px;
+  }
+}

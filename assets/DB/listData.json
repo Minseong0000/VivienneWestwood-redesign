@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "ORB Sweatshirt",
+    "price": "430,000원",
+    "url": "./assets/images/clothes3.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Debussy Top Knitwear",
+    "price": "530,000원",
+    "url": "./assets/images/clothes4.jpg"
+  },
+  {
+    "id": 3,
+    "title": "ORB Knit Cardigan",
+    "price": "680,000원",
+    "url": "./assets/images/clothes5.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Stripe ORB Top Knit",
+    "price": "580,000원",
+    "url": "./assets/images/clothes6.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Bare Crop Cardigan",
+    "price": "830,000원",
+    "url": "./assets/images/clothes7.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Back Detail T-shirt",
+    "price": "280,000원",
+    "url": "./assets/images/clothes8.jpg"
+  },
+  {
+    "id": 7,
+    "title": "ORB Basic T-shirt",
+    "price": "230,000원",
+    "url": "./assets/images/clothes9.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Marina Lap Cardigan",
+    "price": "930,000원",
+    "url": "./assets/images/clothes10.jpg"
+  }
+]

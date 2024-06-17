@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Pretendard', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+/***** 메인 *****/
+/*** 상품 이미지 ***/
+main .pc-product-container {
+  display: none;
+}
+
+main .mobile-product-swiper {
+  padding: 60px 15px 0 15px;
+}
+
+main .mobile-product-swiper .product-container {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+main .mobile-product-swiper .product-container .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .mobile-product-swiper .product-container .swiper-wrapper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main .mobile-product-swiper .product-container .swiper-paggination {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+}
+
+/*** 구매 영역 ***/
+main .order-container {
+  padding: 0 20px;
+}
+
+main .order-container .order-box .clothe-num {
+  color: #272727;
+  font-family: 'Abhaya Libre', Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+main .order-container .order-box .product-name {
+  color: #171717;
+  font-family: 'Abhaya Libre', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 0.85;
+  padding: 4px 0;
+}
+
+main .order-container .order-box .price {
+  font-family: 'Abhaya Libre', Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #272727;
+}
+
+main .order-container .order-box .product-info-box {
+  font-size: 14px;
+  color: #272727;
+  line-height: 1.6;
+  padding: 35px 0;
+}
+
+/*** 드롭 메뉴 ***/
+main .order-container .order-box .drop-menu {
+  display: flex;
+}
+
+main .order-container .order-box .drop-menu .drop-color,
+main .order-container .order-box .drop-menu .drop-size {
+  font-family: 'Abhaya Libre', Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 50%; height: 30px;
+  border: none;
+  border-bottom: 1px solid #272727;
+  background-color: #fff;
+  color: #272727;
+  margin: 0 0 25px 0;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+main .order-container .order-box .drop-menu .drop-size {
+  margin-left: 30px;
+}
+
+/*** 버튼 ***/
+main .order-container .order-box .btn {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  font-family: 'Abhaya Libre', Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 2px solid #243029;
+  cursor: pointer;
+}
+
+main .order-container .order-box .add-btn {
+  background-color: #fff;
+  color: #243029;
+  font-weight: 800;
+}
+
+main .order-container .order-box .buy-btn {
+  background-color: #243029;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+/*** 토글 메뉴 ***/
+main .order-container .order-box .toggle-btn .info-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #dedede;
+  padding: 15px 5px 15px 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+main .order-container .order-box .return-box {
+  border-bottom: 2px solid #dedede;
+}
+
+main .order-container .order-box .toggle-btn .info-toggle h2 {
+  font-family: 'Pretendard', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #171717;
+}
+
+main .order-container .order-box .toggle-btn .toggle-contents {
+  display: none;
+}
+
+main .order-container .order-box .toggle-btn p {
+  font-size: 12px;
+  line-height: 2;
+  color: #272727;
+  padding: 0 10px;
+}
+
+main .order-container .order-box .toggle-btn .toggle-contents p:last-child {
+  padding-bottom: 20px;
+}
+
+main .order-container .order-box .info-box .made-in {
+  padding: 0 10px 15px 10px;
+}
+
+main .order-container .order-box .delivery-box p a,
+main .order-container .order-box .return-box p a {
+  font-weight: 500;
+  color: #171717;
+  border-bottom: 1px solid #171717;                              
+}
+
+main .order-container .order-box .toggle-btn .info-toggle .test-btn {
+  text-indent: -9999px;
+  background: url(./assets/images/plus.svg) no-repeat 50%;
+}
+
+main .order-container .order-box .toggle-btn .info-toggle.open .test-btn {
+  background: url(./assets/images/minus1.svg) no-repeat 50%;
+}
