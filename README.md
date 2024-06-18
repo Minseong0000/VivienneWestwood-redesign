@@ -42,6 +42,36 @@
 - Github organizations 관리
 - 결과물 발표
 ---
+### UI 디자인 시스템
+![unnamed](https://github.com/Minseong0000/VivienneWestwood-redesign/assets/160007497/95e73418-b9e5-4843-bf97-9cc2693db144)
+
+---
+### 퍼블리싱 가이드 라인
+
+- 구조
+header
+main
+section
+div
+footer
+
+- 주석
+/***** header main footer *****/
+/*** section article div ***/
+/* ect */
+
+- 통일된 식별자명
+케밥 표기를 사용함
+
+- class명 표기법
+container > wrapper > contents > box
+
+---
+### 디렉토리 구성
+![unnamed](https://github.com/Minseong0000/VivienneWestwood-redesign/assets/160007497/4347a0be-77cc-4334-9fa0-9ffa4d43ddd2)
+
+
+---
 ### 작업한 주요 기능
 
 #### GSAP
