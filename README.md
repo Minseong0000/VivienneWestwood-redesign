@@ -49,6 +49,7 @@
 ### 퍼블리싱 가이드 라인
 
 - 구조
+- 
 header
 main
 section
@@ -56,14 +57,17 @@ div
 footer
 
 - 주석
+- 
 /***** header main footer *****/
 /*** section article div ***/
 /* ect */
 
 - 통일된 식별자명
+  
 케밥 표기를 사용함
 
 - class명 표기법
+  
 container > wrapper > contents > box
 
 ---
