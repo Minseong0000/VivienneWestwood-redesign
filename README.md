@@ -192,6 +192,6 @@ github를 통하여 접근성이 용이해 빠르게 오류들을 수정할 수 
 
 ---
 
-### <a href="file:///C:/Users/G7/Desktop/vivienne/vivienne-westwood/index.html" target="_blank">프로젝트 바로가기</a>
+### <a href="https://minseong0000.github.io/VivienneWestwood-redesign/" target="_blank">프로젝트 바로가기</a>
 
 
